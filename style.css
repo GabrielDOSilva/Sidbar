@@ -270,3 +270,8 @@ body.dark .switch::before {
 
 }
 
+.cont-geral{
+  display: flex;
+  margin-left: 100px;
+}
+
