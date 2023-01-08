@@ -1,4 +1,5 @@
 const body = document.querySelector("body"),
+      contGeral = body.querySelector(".cont-geral");
       sidebar = body.querySelector(".sidebar"),
       toggle = body.querySelector(".toggle"),
       searchBtn = body.querySelector(".search-box"),
@@ -8,6 +9,7 @@ const body = document.querySelector("body"),
 
 toggle.addEventListener("click", () =>{
     sidebar.classList.toggle("close");
+    contGeral.classList.toggle("close");
 
 });
 
