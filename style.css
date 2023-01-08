@@ -219,12 +219,8 @@ body.dark .sidebar li a:hover .text {
 
 }
 
-.menu-bar .mode i .moon {
-    opacity: 1;
-}
 
-
-.menu-bar .mode i .sun {
+.menu-bar .mode i.sun {
     opacity: 0;
 }
 
