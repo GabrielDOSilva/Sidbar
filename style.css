@@ -271,10 +271,17 @@ body.dark .switch::before {
 }
 
 .cont-geral {
-    position: fixed;
+    position: static;
     background: red;
-    left: auto;
+    padding: 20px;
     right: 0;
+    margin-left: 88px;
     height: 100em;
+    transition: var(--tran-05);
+    
+}
+
+.cont-geral.close{
+    margin-left: 250px;
 }
 
