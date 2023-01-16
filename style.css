@@ -63,7 +63,7 @@ body.dark {
     font-size: 16px;
     font-weight: 500;
     color: var(--text-color);
-    transition: var(--tran-02);
+    transition: var(--tran-05);
     white-space: nowrap;
 
 }
